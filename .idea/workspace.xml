@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1878287-6508-4db5-87a6-25e3050c7f6c" name="Default Changelist" comment="" />
+    <list default="true" id="a1878287-6508-4db5-87a6-25e3050c7f6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/defaultparams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/objects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/rawhttp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather-app/utils/forecast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather-app/utils/geocode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/public/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/public/img/joahnnes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/public/img/weather.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/src/utils/forecast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/src/utils/geocode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/templates/partials/footer.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/templates/partials/header.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/templates/views/404.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/templates/views/about.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/templates/views/help.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/templates/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/callbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/callbacks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/app.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,18 +44,55 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1VVzDcqzfWO0Oeb5YFK8jJ7p7QU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.1.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-server/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-server/src" />
+      <recent name="$PROJECT_DIR$/web-server/public/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-server/templates/views" />
+      <recent name="$PROJECT_DIR$/web-server/src/views" />
+      <recent name="$PROJECT_DIR$/web-server/node_modules" />
+      <recent name="$PROJECT_DIR$/web-server/src" />
+      <recent name="$PROJECT_DIR$/web-server" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -53,34 +117,50 @@
       <option name="presentableId" value="Default" />
       <updated>1577352931599</updated>
       <workItem from="1577352932846" duration="20843000" />
-      <workItem from="1577728795084" duration="6690000" />
+      <workItem from="1577728795084" duration="14568000" />
+      <workItem from="1578042804094" duration="18157000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="369" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577633230390">
+    <state x="369" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577981974748">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="369" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577633230390" />
-    <state x="789" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577435788448">
+    <state x="369" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577981974748" />
+    <state x="789" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578049483123">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="789" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1577435788448" />
+    <state x="789" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1578049483123" />
     <state x="813" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1577728974658">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="813" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577728974658" />
+    <state x="77" y="178" key="SettingsEditor" timestamp="1578060859941">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="77" y="178" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578060859941" />
+    <state x="750" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578134607336">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="750" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1578134607336" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1577781323526">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1577781323526" />
-    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1577782778496">
+    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1578135099189">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1577782778496" />
+    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578135099189" />
+    <state x="881" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1577796996920">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="881" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900@0.0.1440.900" timestamp="1577796996920" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -89,6 +169,17 @@
           <url>file://$PROJECT_DIR$/notes/app.js</url>
           <line>9</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/weather-app/utils/geocode.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web-server/src/app.js</url>
+          <line>42</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

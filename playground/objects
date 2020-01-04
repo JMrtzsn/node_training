@@ -1,0 +1,31 @@
+// Object prop shortahnd
+
+const name = "Johannes"
+const age = 1
+
+const user = {
+    name,
+    age,
+    location: "Stockholm"
+}
+console.log(user)
+
+//Object destructuring
+
+const product = {
+    label: "red notebook",
+    price: 3,
+    stock: 201,
+    salePrice: undefined
+}
+
+//creates a label and stock variable pulled from product
+// rename label to productLabel, set default rating to 5 if no rating
+const {label: productLabel, stock, rating = 5} = product
+console.log(productLabel + stock + rating)
+
+const transaction = (type, {label, stock} = product) => {
+    console.log(type, label, stock)
+}
+
+transaction("order", product)

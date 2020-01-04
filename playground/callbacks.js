@@ -1,4 +1,4 @@
-/*
+
 setTimeout(() => {
     console.log("two sec are up")
 }, 2000);
@@ -21,7 +21,7 @@ const geocode = (address, callback) => {
 
 geocode("Boston", (data) => {
     console.log(data)
-})*/
+})
 
 
 const add = (n1, n2, sum) => {
