@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1878287-6508-4db5-87a6-25e3050c7f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playground/defaultparams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playground/objects" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playground/rawhttp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-app/utils/forecast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-app/utils/geocode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/public/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/public/img/joahnnes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/public/img/weather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/src/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/src/utils/forecast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/src/utils/geocode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/templates/partials/footer.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/templates/partials/header.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/templates/views/404.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/templates/views/about.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/templates/views/help.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/templates/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/callbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/callbacks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="a1878287-6508-4db5-87a6-25e3050c7f6c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +91,7 @@
       <updated>1577352931599</updated>
       <workItem from="1577352932846" duration="20843000" />
       <workItem from="1577728795084" duration="14568000" />
-      <workItem from="1578042804094" duration="18157000" />
+      <workItem from="1578042804094" duration="18359000" />
     </task>
     <servers />
   </component>
