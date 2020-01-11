@@ -4,6 +4,8 @@ const app = express()
 const hbs = require("hbs")
 const geocode = require("./utils/geocode")
 const forecast = require("./utils/forecast")
+// Start the server
+const PORT = process.env.PORT || 3000;
 
 
 // Setup Handlebars engine and views location
@@ -91,6 +93,7 @@ app.get("*", (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log("Server is up on 3000")
-})
+app.listen(PORT, () => {
+  console.log(`App listening on port ${PORT}`);
+  console.log('Press Ctrl+C to quit.');
+});
