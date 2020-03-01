@@ -1,11 +1,22 @@
 const express = require("express")
 const app = express()
 const PORT = process.env.PORT || 3000;
+const handler = require("./datastoreHandler")
+
+
+app.get("/generateCustomers", async (req, res)=>{
+     try {
+        await handler.generateCustomers()
+        res.status(201).send("Successfully generated 10 customers!")
+    } catch (e) {
+        console.log(e)
+        res.status(500).send(e)
+    }
+})
 
 app.get("/getCustomers", async (req, res) => {
     try {
-         //TODO implement get id from DB /await User.findById(req.params.id)
-        const users =  {"name": "Drmartin", "company": "secret"}
+        const users = await handler.listCustomers()
         if (!users) {
             return res.status(404).send()
         }
@@ -18,8 +29,8 @@ app.get("/getCustomers", async (req, res) => {
 
 app.get("/getCustomers/:id", async (req, res) => {
     try {
-        //TODO implement get id from DB /await User.findById(req.params.id)
-        const user =  {"name": "Drmartin", "company": "secret"}
+        const user = await handler.getCustomer(req.params.id)
+        console.log(user)
         if (!user) {
             return res.status(404).send()
         }
@@ -30,6 +41,7 @@ app.get("/getCustomers/:id", async (req, res) => {
     }
 })
 
-app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}`);
+
+app.listen(PORT, async () => {
+    console.log(`App listening on port ${PORT}`);
 });
