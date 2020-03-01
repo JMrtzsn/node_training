@@ -9,17 +9,18 @@ const datastore = new Datastore({
 })
 
 
-function buildCustomer(customer, customerKey) {
+//Util function for generating customer entities
+function buildEntity(customer, customerKey) {
     const entity = {
         key: customerKey, data: [
             {
                 name: 'created',
                 value: new Date().toJSON(),
+                excludeFromIndexes: false
             },
             {
                 name: 'name',
                 value: customer.name,
-                excludeFromIndexes: false,
             },
             {
                 name: 'email',
@@ -42,11 +43,12 @@ function buildCustomer(customer, customerKey) {
     return entity
 }
 
+//Util function for generating customer entities
 async function generateCustomers() {
     const mockCustomer = require("./data/MOCK_DATA.json")
     try {
         const customerKey = datastore.key('Customers')
-        const customerEntities = [mockCustomer.map(customer => buildCustomer(customer, customerKey))]
+        const customerEntities = [mockCustomer.map(customer => buildEntity(customer, customerKey))]
         await customerEntities.forEach(element => datastore.save(element))
     } catch (e) {
         debuglog(e)
@@ -54,24 +56,35 @@ async function generateCustomers() {
     }
 }
 
-async function listCustomers() {
+
+
+async function getCustomers() {
     try {
         const query = datastore.createQuery('Customers').order('created')
         const [customers] = await datastore.runQuery(query)
+
+        // Reassigning ID to properly show it in the requests
+        customers.forEach(entity => {
+            entity.id = entity[datastore.KEY].id
+        })
         return customers
     } catch (e) {
         debuglog(e)
         throw Error(e)
     }
-
 }
 
 async function getCustomer(id) {
-    customerID = Number(4653195938758656)
+    const customerID = Number(id)
     try {
-        const query = datastore.createQuery('Customers').filter("name", "=", "Alair Cutmare").limit(1)
-        const [customers] = await datastore.runQuery(query)
-        return customers
+        const customerKey = datastore.key(['Customers', customerID])
+        const query = await datastore.createQuery('Customers').filter('__key__', '=', customerKey).limit(1)
+        let [customer] = await  datastore.runQuery(query)
+
+        // Reassigning ID to properly show it in the requests
+        customer = customer[0]
+        customer.id = customer[datastore.KEY].id
+        return customer
     } catch (e) {
         debuglog(e)
         throw Error(e)
@@ -80,4 +93,4 @@ async function getCustomer(id) {
 }
 
 
-module.exports = {listCustomers, generateCustomers, getCustomer}
+module.exports = {listCustomers: getCustomers, generateCustomers, getCustomer}
