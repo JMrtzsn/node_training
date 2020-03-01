@@ -5,7 +5,7 @@ const handler = require("./datastoreHandler")
 
 app.get("/getCustomers", async (req, res) => {
     try {
-        const users = await handler.listCustomers()
+        const users = await handler.getCustomers()
         if (!users) {
             return res.status(404).send()
         }
@@ -17,9 +17,9 @@ app.get("/getCustomers", async (req, res) => {
 
 app.get("/getCustomers/:id", async (req, res) => {
     try {
-        const user = await handler.getCustomer(req.params.id)
+        const user = await handler.getCustomerBy(req.params.id)
         if (!user) {
-            return res.status(404).send()
+            return res.status(404)
         }
         res.send(user)
     } catch (e) {

@@ -1,6 +1,4 @@
 const {Datastore} = require('@google-cloud/datastore')
-const util = require('util')
-const debuglog = util.debuglog('datastoreHandler')
 
 // Creates a client
 const datastore = new Datastore({
@@ -51,11 +49,9 @@ async function generateCustomers() {
         const customerEntities = [mockCustomer.map(customer => buildEntity(customer, customerKey))]
         await customerEntities.forEach(element => datastore.save(element))
     } catch (e) {
-        debuglog(e)
-        throw Error(e)
+        throw new Error(e)
     }
 }
-
 
 
 async function getCustomers() {
@@ -63,34 +59,32 @@ async function getCustomers() {
         const query = datastore.createQuery('Customers').order('created')
         const [customers] = await datastore.runQuery(query)
 
-        // Reassigning ID to properly show it in the requests
+        // Reassigning ID to properly display in requests
         customers.forEach(entity => {
             entity.id = entity[datastore.KEY].id
         })
         return customers
     } catch (e) {
-        debuglog(e)
-        throw Error(e)
+        throw new Error(e)
     }
 }
 
-async function getCustomer(id) {
+async function getCustomerBy(id) {
     const customerID = Number(id)
     try {
         const customerKey = datastore.key(['Customers', customerID])
         const query = await datastore.createQuery('Customers').filter('__key__', '=', customerKey).limit(1)
-        let [customer] = await  datastore.runQuery(query)
+        let [customer] = await datastore.runQuery(query)
 
-        // Reassigning ID to properly show it in the requests
+        // Reassigning ID to properly display in requests
         customer = customer[0]
         customer.id = customer[datastore.KEY].id
         return customer
     } catch (e) {
-        debuglog(e)
-        throw Error(e)
+        throw new Error(e)
     }
 
 }
 
 
-module.exports = {listCustomers: getCustomers, generateCustomers, getCustomer}
+module.exports = {getCustomers, getCustomerBy}
