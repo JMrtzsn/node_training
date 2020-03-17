@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1878287-6508-4db5-87a6-25e3050c7f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/playground/async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager/playground/promise-chaining.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager/playground/promise-chaining_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager/src/models/task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager/src/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/.idea/task-manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/middleware/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/routers/tasks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/routers/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/routers/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/promises.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/promises.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager/src/db/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/db/mongoose.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/cloudbuild.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/models/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/models/task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/models/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +70,7 @@
     <property name="node.js.selected.package.jscs" value="" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -107,7 +111,13 @@
       <workItem from="1577728795084" duration="14568000" />
       <workItem from="1578042804094" duration="24174000" />
       <workItem from="1578306392868" duration="19271000" />
-      <workItem from="1579418057706" duration="18320000" />
+      <workItem from="1579418057706" duration="32031000" />
+      <workItem from="1582896031482" duration="1008000" />
+      <workItem from="1582897218133" duration="2065000" />
+      <workItem from="1583657533155" duration="4956000" />
+      <workItem from="1583823789033" duration="41000" />
+      <workItem from="1583823848828" duration="3078000" />
+      <workItem from="1584370222194" duration="113000" />
     </task>
     <servers />
   </component>
@@ -122,18 +132,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="369" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577981974748" />
-    <state x="789" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578049483123">
+    <state x="789" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582899408892">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="789" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1578049483123" />
+    <state x="789" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1582899408892" />
     <state x="813" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1577728974658">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="813" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577728974658" />
-    <state x="77" y="178" key="SettingsEditor" timestamp="1578060859941">
+    <state x="77" y="178" key="SettingsEditor" timestamp="1583824112888">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="77" y="178" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578060859941" />
+    <state x="77" y="178" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583824112888" />
     <state x="750" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578134607336">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -142,10 +152,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1577781323526" />
-    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582266197642">
+    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583824258613">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582266197642" />
+    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583824258613" />
     <state x="881" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1577796996920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
