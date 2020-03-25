@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1878287-6508-4db5-87a6-25e3050c7f6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/task-manager/src/emails/account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/mongodb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/middleware/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/middleware/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/routers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/routers/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,16 +68,16 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web-server/src" />
-      <recent name="$PROJECT_DIR$/web-server/public/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task-manager" />
       <recent name="$PROJECT_DIR$/web-server/templates/views" />
       <recent name="$PROJECT_DIR$/web-server/src/views" />
       <recent name="$PROJECT_DIR$/web-server/node_modules" />
       <recent name="$PROJECT_DIR$/web-server/src" />
-      <recent name="$PROJECT_DIR$/web-server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-server/src" />
+      <recent name="$PROJECT_DIR$/web-server/public/img" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -103,7 +112,8 @@
       <workItem from="1583657533155" duration="4956000" />
       <workItem from="1583823789033" duration="41000" />
       <workItem from="1583823848828" duration="3078000" />
-      <workItem from="1584370222194" duration="13902000" />
+      <workItem from="1584370222194" duration="15976000" />
+      <workItem from="1585132971470" duration="1646000" />
     </task>
     <servers />
   </component>
@@ -118,10 +128,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="369" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577981974748" />
-    <state x="719" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584785229878">
+    <state x="719" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585132935933">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="719" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1584785229878" />
+    <state x="719" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585132935933" />
     <state x="813" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1577728974658">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -142,10 +152,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="854" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1584774433582" />
-    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1584873989098">
+    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585133097029">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584873989098" />
+    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585133097029" />
     <state x="881" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1577796996920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -171,8 +181,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/task-manager/src/routers/user.js</url>
-          <line>131</line>
-          <properties lambdaOrdinal="-1" />
+          <line>135</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
