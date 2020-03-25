@@ -2,6 +2,8 @@ const mongoose = require("mongoose")
 const validator = require("validator")
 const bcrypt = require("bcryptjs")
 const jwt = require("jsonwebtoken")
+const Task = require("./task")
+const sharp = require("sharp")
 
 const userSchema = new mongoose.Schema({
     name: {
@@ -42,14 +44,28 @@ const userSchema = new mongoose.Schema({
             required: true,
 
         }
-    }]
+    }],
+    avatar:{
+        type: Buffer
+    }
+}, {
+    timestamps: true
 })
 
+// Virtual db reference (field), wont be stored in the DB
+userSchema.virtual("tasks",{
+    ref: "Task",
+    // PK
+    localField: "_id",
+    // FK
+    foreignField: "owner"
+})
 
 userSchema.methods.toJSON = function () {
     const user = this.toObject()
     delete user.tokens
     delete user.password
+    delete user.avatar
     return user
 }
 
@@ -75,6 +91,7 @@ userSchema.statics.findByCredentials = async (email, password) => {
     return user
 }
 
+// Hash plain text password, runs when a user is saved / created
 userSchema.pre("save", async function (next) {
     try {
         const user = this
@@ -84,6 +101,13 @@ userSchema.pre("save", async function (next) {
     } catch (e) {
         throw new Error(e)
     }
+    next()
+})
+
+// Delete user tasks when user is removed, runs when remove command is executed
+userSchema.pre("remove", async function (next) {
+    const user = this
+    await Task.deleteMany({owner: user._id})
     next()
 })
 
