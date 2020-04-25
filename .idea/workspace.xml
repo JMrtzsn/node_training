@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1878287-6508-4db5-87a6-25e3050c7f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task-manager/src/emails/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/test/__mocks__/@sendgrid/mail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/test/fixtures/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/test/fixtures/profile-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/test/task.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/test/user.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager/mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/mongodb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/db/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/db/mongoose.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager/src/middleware/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/middleware/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager/src/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager/src/routers/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/routers/user.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +61,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.1.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-server/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/task-manager/test/fixtures" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -63,22 +71,72 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/task-manager/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/task-manager" />
-      <recent name="$PROJECT_DIR$/web-server/templates/views" />
-      <recent name="$PROJECT_DIR$/web-server/src/views" />
-      <recent name="$PROJECT_DIR$/web-server/node_modules" />
-      <recent name="$PROJECT_DIR$/web-server/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task-manager/test/fixtures" />
       <recent name="$PROJECT_DIR$/web-server/src" />
       <recent name="$PROJECT_DIR$/web-server/public/img" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chat-app" />
+      <recent name="$PROJECT_DIR$/chat-app/src" />
+      <recent name="$PROJECT_DIR$/task-manager" />
+      <recent name="$PROJECT_DIR$/web-server/templates/views" />
+      <recent name="$PROJECT_DIR$/web-server/src/views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Should upload avatar image">
+    <configuration name="Should login user" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/task-manager/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/task-manager" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/task-manager/test/user.test.js" />
+      <test-names>
+        <test-name value="Should login user" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Should upload avatar image" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/task-manager/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/task-manager" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/task-manager/test/user.test.js" />
+      <test-names>
+        <test-name value="Should upload avatar image" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="async test demo!" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/task-manager/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/task-manager" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/task-manager/test/math.test.js" />
+      <test-names>
+        <test-name value="async test demo!" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Should upload avatar image" />
+        <item itemvalue="Jest.Should login user" />
+        <item itemvalue="Jest.async test demo!" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -113,7 +171,8 @@
       <workItem from="1583823789033" duration="41000" />
       <workItem from="1583823848828" duration="3078000" />
       <workItem from="1584370222194" duration="15976000" />
-      <workItem from="1585132971470" duration="1646000" />
+      <workItem from="1585132971470" duration="4817000" />
+      <workItem from="1585890148841" duration="13169000" />
     </task>
     <servers />
   </component>
@@ -128,14 +187,82 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="369" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577981974748" />
-    <state x="719" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585132935933">
+    <state x="719" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587708211269">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="719" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585132935933" />
+    <state x="719" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1587708211269" />
     <state x="813" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1577728974658">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="813" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577728974658" />
+    <state x="612" y="100" width="728" height="700" maximized="true" key="DiffContextDialog" timestamp="1586073305910">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="612" y="100" width="728" height="700" maximized="true" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1586073305910" />
+    <state width="886" height="245" key="GridCell.Tab.0.bottom" timestamp="1587710996670">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="886" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587710996670" />
+    <state width="886" height="245" key="GridCell.Tab.0.center" timestamp="1587710996670">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="886" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587710996670" />
+    <state width="886" height="245" key="GridCell.Tab.0.left" timestamp="1587710996669">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="886" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587710996669" />
+    <state width="886" height="245" key="GridCell.Tab.0.right" timestamp="1587710996670">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="886" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587710996670" />
+    <state width="598" height="303" key="GridCell.Tab.1.bottom" timestamp="1587705937874">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="598" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587705937874" />
+    <state width="598" height="303" key="GridCell.Tab.1.center" timestamp="1587705937873">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="598" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587705937873" />
+    <state width="598" height="303" key="GridCell.Tab.1.left" timestamp="1587705937873">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="598" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587705937873" />
+    <state width="598" height="303" key="GridCell.Tab.1.right" timestamp="1587705937874">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="598" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587705937874" />
+    <state width="598" height="303" key="GridCell.Tab.2.bottom" timestamp="1587705937875">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="598" height="303" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587705937875" />
+    <state width="598" height="303" key="GridCell.Tab.2.center" timestamp="1587705937875">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="598" height="303" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1587705937875" />
+    <state width="598" height="303" key="GridCell.Tab.2.left" timestamp="1587705937874">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="598" height="303" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1587705937874" />
+    <state width="598" height="303" key="GridCell.Tab.2.right" timestamp="1587705937875">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="598" height="303" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1587705937875" />
+    <state width="598" height="303" key="GridCell.Tab.3.bottom" timestamp="1587705937878">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="598" height="303" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587705937878" />
+    <state width="598" height="303" key="GridCell.Tab.3.center" timestamp="1587705937876">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="598" height="303" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1587705937876" />
+    <state width="598" height="303" key="GridCell.Tab.3.left" timestamp="1587705937876">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="598" height="303" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1587705937876" />
+    <state width="598" height="303" key="GridCell.Tab.3.right" timestamp="1587705937878">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="598" height="303" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1587705937878" />
     <state x="77" y="178" key="SettingsEditor" timestamp="1583824112888">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -152,10 +279,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="854" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1584774433582" />
-    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585133097029">
+    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586072914771">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585133097029" />
+    <state x="780" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586072914771" />
     <state x="881" y="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1577796996920">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -183,6 +310,18 @@
           <url>file://$PROJECT_DIR$/task-manager/src/routers/user.js</url>
           <line>135</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/task-manager/test/user.test.js</url>
+          <line>38</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/task-manager/test/user.test.js</url>
+          <line>81</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
