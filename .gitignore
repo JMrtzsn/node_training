@@ -4,3 +4,8 @@
 /web-server/node_modules/
 /task-manager/node_modules/
 /task-manager/config/
+/task-manager/node_modules/
+/task-manager/config/
+/chat-app/node_modules
+/chat-app/config
+.idea
